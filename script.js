@@ -8,9 +8,9 @@
 
 
 //This is deprecated
-// jQuery(document).ready(function () {
-
-// })
+$(document).ready(function () {
+    $('#button1').css("background-color", "green")
+});
 
 //using jquery
 // $(function () {
@@ -31,6 +31,11 @@
 // $(document).ready(function () {
 //     alert('dom Loaded')
 // });
+
+
+$(document).ready(function () {
+    $('#div1').html("Height = " + $('img1').height() + "<br>" + "Width = " + $('img1').width())
+});
 
 
 
