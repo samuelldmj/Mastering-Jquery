@@ -33,9 +33,44 @@ $(document).ready(function () {
 // });
 
 
-$(document).ready(function () {
-    $('#div1').html("Height = " + $('img1').height() + "<br>" + "Width = " + $('img1').width())
-});
+// $(document).ready(function () {
+//     $('#div1').html("Height = " + $('img1').height() + "<br>" + "Width = " + $('img1').width())
+// });
+
+// $(document).ready(function () {
+//     alert($('td').length);
+// });
+
+
+// $(document).ready(function () {
+//     $('tr').css('background-Color', 'red');
+// });
+
+
+// $(document).ready(function () {
+//     alert($('table').html());
+// });
+
+// $(document).ready(function () {
+//     $('table tr').each(function () {
+//         alert($(this).html());
+//     });
+// });
+
+
+// $(document).ready(function () {
+//     $('div, span, a').css('background-Color', 'yellow');
+// });
+
+// $(document).ready(function () {
+//     $('tr:even').css('background-Color', 'gray');
+//     $('tr:odd').css('background-Color', 'yellow');
+// });
+
+// $(document).ready(function () {
+//     $('#table1 tr:even').css('background-Color', 'gray');
+//     $('#table1 tr:odd').css('background-Color', 'yellow');
+// });
 
 
 
